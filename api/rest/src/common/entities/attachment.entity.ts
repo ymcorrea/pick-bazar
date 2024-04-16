@@ -4,3 +4,4 @@ export class Attachment extends CoreEntity {
   thumbnail?: string;
   original?: string;
 }
+ 

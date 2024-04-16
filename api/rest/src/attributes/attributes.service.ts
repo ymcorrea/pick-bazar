@@ -12,7 +12,7 @@ export class AttributesService {
   private attributes: Attribute[] = attributes;
 
   create(createAttributeDto: CreateAttributeDto) {
-    return this.attributes[0];
+    return this.attributes[0]; 
   }
 
   findAll() {

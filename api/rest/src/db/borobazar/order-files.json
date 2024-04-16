@@ -24,7 +24,7 @@
         "quantity": 500,
         "is_disable": 0,
         "sku": "g515fdg56sfdfd+++1561561***",
-        "options": [
+        "options": [ 
           {
             "name": "Book Type",
             "value": "PDF Book"

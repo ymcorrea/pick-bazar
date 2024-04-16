@@ -19,7 +19,7 @@ export class AttributesController {
   create(@Body() createAttributeDto: CreateAttributeDto) {
     return this.attributesService.create(createAttributeDto);
   }
-
+ 
   @Get()
   findAll() {
     return this.attributesService.findAll();

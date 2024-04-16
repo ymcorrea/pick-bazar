@@ -12,7 +12,7 @@ const categories = plainToClass(Category, categoriesJson);
 const options = {
   keys: ['name', 'type.slug'],
   threshold: 0.3,
-};
+}; 
 const fuse = new Fuse(categories, options);
 
 @Injectable()

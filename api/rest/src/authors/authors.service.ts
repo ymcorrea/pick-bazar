@@ -19,7 +19,7 @@ const options = {
 const fuse = new Fuse(authors, options);
 
 @Injectable()
-export class AuthorsService {
+export class AuthorsService { 
   private authors: Author[] = authors;
 
   create(createAuthorDto: CreateAuthorDto) {

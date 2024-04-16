@@ -7,3 +7,4 @@ import { AnalyticsController } from './analytics.controller';
   providers: [AnalyticsService],
 })
 export class AnalyticsModule {}
+ 

@@ -20,3 +20,4 @@ export enum QueryAuthorsOrderByColumn {
   NAME = 'NAME',
   UPDATED_AT = 'UPDATED_AT',
 }
+ 

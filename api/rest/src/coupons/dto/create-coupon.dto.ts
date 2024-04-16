@@ -11,3 +11,4 @@ export class CreateCouponDto extends PickType(Coupon, [
   'active_from',
   'language',
 ]) {}
+ 

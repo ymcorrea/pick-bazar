@@ -10,4 +10,4 @@ export class Attribute extends CoreEntity {
   values: AttributeValue[];
   language: string;
   translated_languages: string[];
-}
+} 

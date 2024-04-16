@@ -15,7 +15,7 @@ const options = {
 };
 const fuse = new Fuse(coupons, options);
 
-@Injectable()
+@Injectable() 
 export class CouponsService {
   private coupons: Coupon[] = coupons;
 

@@ -16,7 +16,7 @@ export class LoginDto extends PartialType(
   PickType(User, ['email', 'password']),
 ) {}
 
-export class SocialLoginDto {
+export class SocialLoginDto { 
   provider: string;
   access_token: string;
 }

@@ -24,7 +24,7 @@ export class AuthorsController {
     return this.authorsService.create(createAuthorDto);
   }
 
-  @Get()
+  @Get() 
   async getAuthors(@Query() query: GetAuthorDto): Promise<AuthorPaginator> {
     return this.authorsService.getAuthors(query);
   }

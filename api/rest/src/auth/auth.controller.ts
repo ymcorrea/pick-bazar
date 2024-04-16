@@ -21,7 +21,7 @@ export class AuthController {
   createAccount(@Body() registerDto: RegisterDto) {
     return this.authService.register(registerDto);
   }
-  @Post('token')
+  @Post('token') 
   login(@Body() loginDto: LoginDto) {
     return this.authService.login(loginDto);
   }

@@ -15,4 +15,4 @@ export class Category extends CoreEntity {
   products?: Product[];
   language: string;
   translated_languages: string[];
-}
+} 

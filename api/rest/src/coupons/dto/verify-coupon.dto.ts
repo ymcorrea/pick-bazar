@@ -7,3 +7,4 @@ export class VerifyCouponResponse {
   is_valid: boolean;
   coupon: Coupon;
 }
+ 

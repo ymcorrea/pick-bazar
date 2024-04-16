@@ -11,6 +11,6 @@ export class Paginator<T> {
   last_page_url: string;
   next_page_url: string;
   prev_page_url: string;
-  //from
+  //from 
   //to
 }

@@ -6,4 +6,4 @@ import { AttributesController } from './attributes.controller';
   controllers: [AttributesController],
   providers: [AttributesService],
 })
-export class AttributesModule {}
+export class AttributesModule {} 

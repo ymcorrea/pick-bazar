@@ -13,3 +13,4 @@ export class TotalYearSaleByMonth {
   total?: number;
   month?: string;
 }
+ 

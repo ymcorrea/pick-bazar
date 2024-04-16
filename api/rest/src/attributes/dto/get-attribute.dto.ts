@@ -3,3 +3,4 @@ export class GetAttributeArgs {
   slug?: string;
   language?: string;
 }
+ 

@@ -18,7 +18,7 @@ export class AddressesController {
   @Post()
   createAddress(@Body() createAddressDto: CreateAddressDto) {
     return this.addressesService.create(createAddressDto);
-  }
+  } 
 
   @Get()
   addresses() {

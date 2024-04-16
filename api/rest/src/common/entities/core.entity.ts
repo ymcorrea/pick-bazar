@@ -7,3 +7,4 @@ export class CoreEntity {
   @Type(() => Date)
   updated_at: Date;
 }
+ 

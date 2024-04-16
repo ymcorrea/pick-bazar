@@ -14,3 +14,4 @@ export class Social {
   type: string;
   link: string;
 }
+ 

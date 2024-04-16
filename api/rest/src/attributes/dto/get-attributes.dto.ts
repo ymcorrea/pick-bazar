@@ -15,3 +15,4 @@ export enum QueryAttributesOrderByColumn {
   NAME = 'NAME',
   UPDATED_AT = 'UPDATED_AT',
 }
+ 

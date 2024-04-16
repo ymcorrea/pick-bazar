@@ -17,4 +17,4 @@ export class CreateAuthorDto extends OmitType(Author, [
   'translated_languages',
 ]) {
   shop_id?: string;
-}
+} 

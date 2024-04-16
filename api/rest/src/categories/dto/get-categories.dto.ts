@@ -19,5 +19,5 @@ export class GetCategoriesDto extends PaginationArgs {
 export enum QueryCategoriesOrderByColumn {
   CREATED_AT = 'CREATED_AT',
   NAME = 'NAME',
-  UPDATED_AT = 'UPDATED_AT',
+  UPDATED_AT = 'UPDATED_AT', 
 }

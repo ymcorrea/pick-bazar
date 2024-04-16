@@ -15,7 +15,7 @@ export class Coupon extends CoreEntity {
   orders?: Order[];
   type: CouponType;
   image: Attachment;
-  is_valid: boolean;
+  is_valid: boolean; 
   amount: number;
   active_from: string;
   expire_at: string;

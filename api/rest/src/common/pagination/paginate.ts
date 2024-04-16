@@ -23,7 +23,7 @@ export function paginate(
   // if (totalPages <= maxPages) {
   //   // total pages less than max so show all pages
   //   startPage = 1;
-  //   endPage = totalPages;
+  //   endPage = totalPages; 
   // } else {
   //   // total pages more than max so calculate start and end pages
   //   const maxPagesBeforeCurrentPage = Math.floor(maxPages / 2);
